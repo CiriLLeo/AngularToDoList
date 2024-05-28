@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:AngularCrash": "node dist/angular-crash/server/server.mjs",
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 4000"
   },
   "engines": {
     "node": ">=16.0.0"
