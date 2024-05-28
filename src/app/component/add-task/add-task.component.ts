@@ -9,8 +9,8 @@ import { Task } from '../../Task';
 })
 export class AddTaskComponent implements OnInit {
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
-  text: string = '';
-  day: string = '';
+  text!: string;
+  day!: string;
   reminder: boolean = false;
 
   constructor() { }
@@ -24,7 +24,7 @@ export class AddTaskComponent implements OnInit {
     }
 
     const newTask = {
-      id: Math.random(), //da cambiare perche rompe tutto4
+      id: Math.floor(Math.random() * 100000), //NON FUNZIONA PROBABILENTE PER COLPA DI QUESTO
       text: this.text,
       day: this.day,
       reminder: this.reminder,
