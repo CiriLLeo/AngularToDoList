@@ -19,11 +19,22 @@ export class TasksComponent implements OnInit {
   }
 
   deleteTask(task: Task) {
+    // implementato la rimozione delle task
     this.taskService
       .deleteTask(task)
       .subscribe(
         () => (this.tasks = this.tasks.filter((t) => t.id !== task.id))
       );
+  }
+
+  toggleReminder(task: Task) {
+    // implementato il doppio tocco e con update resta uguale anche se aggiorniamo la pagina
+    task.reminder = !task.reminder;
+    this.taskService.updateTaskReminder(task).subscribe();
+  }
+
+  addTask(task: Task) {
+    this.taskService.addTask(task).subscribe((task) => (this.tasks.push(task)));
   }
 
 }
