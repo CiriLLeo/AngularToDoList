@@ -24,17 +24,17 @@ export class AddTaskComponent implements OnInit {
     }
 
     const newTask = {
-      id: Math.floor(Math.random() * 100000), //NON FUNZIONA PROBABILENTE PER COLPA DI QUESTO
       text: this.text,
       day: this.day,
       reminder: this.reminder,
-    }
+    } as Task;
 
     this.onAddTask.emit(newTask);
 
     this.text = '';
     this.day = '';
     this.reminder = false;
+
   }
 
 }
