@@ -7,18 +7,18 @@ Un Esercizio fatto con start2Impact per imparare Angular
 
 Clone repository
 
-Install dependencies
+<h3>Install dependencies</h3>
 
 ```bash
   npm install 
 ```
 
-Run Angular server (http://localhost:4200)
+<h3>Run Angular server (http://localhost:4200)</h3>
 
 ```bash
   ng serve
 ```
-Run the JSON server (http://localhost:4000)
+<h3>Run the JSON server (http://localhost:4000)</h3>
 
 ```bash
   npm run server 
