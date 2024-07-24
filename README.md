@@ -1,27 +1,25 @@
-# AngularCrash
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+# To Do List
 
-## Development server
+Un Esercizio fatto con start2Impact per imparare Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Installation
 
-## Code scaffolding
+Clone repository
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3>Install dependencies</h3>
 
-## Build
+```bash
+  npm install 
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h3>Run Angular server (http://localhost:4200)</h3>
 
-## Running unit tests
+```bash
+  ng serve
+```
+<h3>Run the JSON server (http://localhost:4000)</h3>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+  npm run server 
+```    
