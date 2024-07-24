@@ -25,6 +25,7 @@ Clone repository
 ```    
 
 ## Screenshots
+
 <p align="center">
-![App Screenshot](https://raw.githubusercontent.com/CiriLLeo/AngularToDoList/main/src/screenshot/photo_2024-07-24_10-26-16.jpg)
+  <img src="https://raw.githubusercontent.com/CiriLLeo/AngularToDoList/main/src/screenshot/photo_2024-07-24_10-26-16.jpg">
 </p>
